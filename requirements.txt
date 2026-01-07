@@ -1,5 +1,6 @@
 streamlit
 yfinance
+yahoo_fin
 hmmlearn
 plotly
 pandas
