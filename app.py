@@ -55,7 +55,7 @@ def run_scanner(ticker_list, rsi_low):
     
     progress_bar = st.progress(0)
     # จำกัดจำนวนการสแกนเพื่อความรวดเร็วบน Streamlit
-    limit = valid_tickers[:50] 
+    limit = valid_tickers[:150] 
     
     for i, t in enumerate(limit):
         try:
